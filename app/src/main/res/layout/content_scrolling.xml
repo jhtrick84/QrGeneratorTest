@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ScrollingActivity"
+    tools:showIn="@layout/activity_scrolling">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/ivQr1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="#000000"
+                android:scaleType="fitXY" />
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#000000"
+                />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/ivQrGen1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="#000000"
+                android:scaleType="fitXY" />
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#000000"
+                />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvQr1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:padding="10dp" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000"
+            />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/ivQr2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="#000000"
+                android:scaleType="fitXY" />
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#000000"
+                />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/ivQrGen2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="#000000"
+                android:scaleType="fitXY" />
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#000000"
+                />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvQr2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:padding="10dp" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000"
+            />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/ivQr3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="#000000"
+                android:scaleType="fitXY" />
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#000000"
+                />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/ivQrGen3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="#000000"
+                android:scaleType="fitXY" />
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#000000"
+                />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvQr3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:padding="10dp" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000"
+            />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/ivQr4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="#000000"
+                android:scaleType="fitXY" />
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#000000"
+                />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/ivQrGen4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="#000000"
+                android:scaleType="fitXY" />
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#000000"
+                />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvQr4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:padding="10dp" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000"
+            />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/ivQr5"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="#000000"
+                android:scaleType="fitXY" />
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#000000"
+                />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/ivQrGen5"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="#000000"
+                android:scaleType="fitXY" />
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#000000"
+                />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvQr5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:padding="10dp" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000"
+            />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/ivQr6"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="#000000"
+                android:scaleType="fitXY" />
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#000000"
+                />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/ivQrGen6"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="#000000"
+                android:scaleType="fitXY" />
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#000000"
+                />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvQr6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:padding="10dp" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000"
+            />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/ivQr7"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="#000000"
+                android:scaleType="fitXY" />
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#000000"
+                />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/ivQrGen7"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="#000000"
+                android:scaleType="fitXY" />
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#000000"
+                />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvQr7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:padding="10dp" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.core.widget.NestedScrollView>
